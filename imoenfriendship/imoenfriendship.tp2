@@ -27,7 +27,7 @@ ALWAYS
 
 	/* Converts tra files to UTF-8 */
 	// No exception, everything needs to be converted
-	ACTION_DEFINE_ARRAY ImFrienoconvert BEGIN END
+	ACTION_DEFINE_ARRAY ImFrienoconvert BEGIN install END
 
 	// any tra files used in LANGUAGE need to be reloaded after UTF-8 conversion
 	ACTION_DEFINE_ARRAY ImFriereload BEGIN Setup END
@@ -61,7 +61,7 @@ LANGUAGE ~Espanol (traduccion por Clan DLAN)~
          ~imoenfriendship/translations/spanish/setup.tra~     
 LANGUAGE ~Chinese (translation by Merzbau)~
          ~schinese~                                       
-         ~imoenfriendship/translations/schinese/setup.tra~ 
+         ~imoenfriendship/translations/schinese/install.tra~ 
 
 
 /* =================================== *
